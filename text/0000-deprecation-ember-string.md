@@ -14,6 +14,9 @@ With the introduction of [RFC #176](https://github.com/emberjs/rfcs/blob/master/
 
 In the specific case of `Ember.String`, our goal is that users that need who these utility functions will include `@ember/string` in their dependencies, or rely on common utility packages like [`lodash.camelcase`](https://lodash.com/docs/#camelCase).
 
+* Explain that `Ember.String.*` is deprecated
+* Explain that `isHTMLSafe` and `htmlSafe` while operating on Strings, they are more about templates.
+
 # Transition Path
 
 It is important to understand that the transition path will be done in the context of the new modules API defined in RFC #176, which is scheduled to land in 2.16.
