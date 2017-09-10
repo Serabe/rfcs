@@ -16,6 +16,8 @@ In the specific case of `Ember.String`, our goal is that users that need who the
 
 * Explain that `Ember.String.*` is deprecated
 * Explain that `isHTMLSafe` and `htmlSafe` while operating on Strings, they are more about templates.
+  And that since `String.prototype` extensions are deprecated, they no longer quite fit in the mental
+  chunking model presented in the RFC.
 
 # Transition Path
 
